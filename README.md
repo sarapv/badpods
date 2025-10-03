@@ -1,5 +1,7 @@
 # BAD-PODS
 
+*Anonymous code release for review*
+
 This repository contains the implementation of **BAD-PODS** (Bayesian Adaptive Design for Partially Observable Dynamical Systems).  
 
 The code provides:
