@@ -1100,7 +1100,7 @@ def main(
         model_type = MODEL_TYPE
         if model_type == 'sir':
             run = wandb.init(
-                entity="sarapv-aalto-university",
+                entity="username",
                 project="aistats-sirmodel", 
                 config={
                     "seed": seed_run,
@@ -1118,7 +1118,7 @@ def main(
                 wandb.run.name = f"sir_run_T{T_run}_Ns{N_state}_Np{N_param}_K{K_opt}_seed{seed_run}"
         elif model_type == 'source':
             run = wandb.init(
-                entity="sarapv-aalto-university",
+                entity="username",
                 project="aistats-sourcemodel", 
                 config={
                     "seed": seed_run,
@@ -1137,7 +1137,7 @@ def main(
         else:
             model_type = 'sir'
             run = wandb.init(
-                entity="sarapv-aalto-university",
+                entity="username",
                 project="aistats-sirmodel", 
                 config={
                     "seed": seed_run,
